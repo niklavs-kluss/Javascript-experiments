@@ -1,0 +1,45 @@
+html {
+  color: #373d3f;
+  background-color: #f4f5ff;
+  scroll-behavior: smooth;
+}
+#base {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  /* 1rem = 16px */
+}
+.box-1 {
+  border: 2px solid black;
+  height: 20rem;
+  max-width: 100%;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#customize-button {
+  margin: 10px;
+  padding: 12px 10px;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  border: 2px solid red;
+  border-radius: 0.5rem;
+  text-align: center;
+  display: inline-block;
+  user-select: none; /* Doesn't let the user select button text*/
+}
+#customize-button:hover {
+  background-color: red;
+  color: white;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.center-button-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
